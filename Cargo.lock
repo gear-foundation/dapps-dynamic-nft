@@ -1069,7 +1069,7 @@ dependencies = [
 [[package]]
 name = "gclient"
 version = "0.1.0"
-source = "git+https://github.com/gear-tech/gear.git#bbc680aab1527410a2e56ba0185a9421c6c0bac2"
+source = "git+https://github.com/gear-tech/gear.git#e3fbb48d28715baa4bc5cda0cd7ab1a1371015df"
 dependencies = [
  "anyhow",
  "async-trait",
@@ -1149,7 +1149,7 @@ dependencies = [
 [[package]]
 name = "gear-core"
 version = "0.1.0"
-source = "git+https://github.com/gear-tech/gear.git#bbc680aab1527410a2e56ba0185a9421c6c0bac2"
+source = "git+https://github.com/gear-tech/gear.git#e3fbb48d28715baa4bc5cda0cd7ab1a1371015df"
 dependencies = [
  "blake2-rfc",
  "derive_more",
@@ -1178,7 +1178,7 @@ dependencies = [
 [[package]]
 name = "gear-core-errors"
 version = "0.1.0"
-source = "git+https://github.com/gear-tech/gear.git#bbc680aab1527410a2e56ba0185a9421c6c0bac2"
+source = "git+https://github.com/gear-tech/gear.git#e3fbb48d28715baa4bc5cda0cd7ab1a1371015df"
 dependencies = [
  "derive_more",
  "enum-iterator",
@@ -1240,7 +1240,7 @@ dependencies = [
 [[package]]
 name = "gear-utils"
 version = "0.1.0"
-source = "git+https://github.com/gear-tech/gear.git#bbc680aab1527410a2e56ba0185a9421c6c0bac2"
+source = "git+https://github.com/gear-tech/gear.git#e3fbb48d28715baa4bc5cda0cd7ab1a1371015df"
 dependencies = [
  "env_logger",
  "nonempty",
@@ -1276,7 +1276,7 @@ dependencies = [
 [[package]]
 name = "gear-wasm-instrument"
 version = "0.1.0"
-source = "git+https://github.com/gear-tech/gear.git#bbc680aab1527410a2e56ba0185a9421c6c0bac2"
+source = "git+https://github.com/gear-tech/gear.git#e3fbb48d28715baa4bc5cda0cd7ab1a1371015df"
 dependencies = [
  "enum-iterator",
  "wasm-instrument",
@@ -1375,7 +1375,7 @@ dependencies = [
 [[package]]
 name = "gsdk"
 version = "0.1.0"
-source = "git+https://github.com/gear-tech/gear.git#bbc680aab1527410a2e56ba0185a9421c6c0bac2"
+source = "git+https://github.com/gear-tech/gear.git#e3fbb48d28715baa4bc5cda0cd7ab1a1371015df"
 dependencies = [
  "anyhow",
  "async-recursion",
@@ -4133,7 +4133,7 @@ checksum = "97fee6b57c6a41524a810daee9286c02d7752c4253064d0b05472833a438f675"
 dependencies = [
  "cfg-if",
  "digest 0.10.6",
- "rand 0.7.3",
+ "rand 0.8.5",
  "static_assertions",
 ]
 
