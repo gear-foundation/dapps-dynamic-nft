@@ -142,7 +142,7 @@ checksum = "0e97ce7de6cf12de5d7226c73f5ba9811622f4db3a5b91b55c53e987e5f91cba"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.11",
+ "syn 2.0.15",
 ]
 
 [[package]]
@@ -153,7 +153,7 @@ checksum = "b9ccdd8f2a161be9bd5c023df56f1b2a0bd1d83872ae53b71a84a12c9bf6e842"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.11",
+ "syn 2.0.15",
 ]
 
 [[package]]
@@ -602,7 +602,7 @@ dependencies = [
  "proc-macro2",
  "quote",
  "scratch",
- "syn 2.0.11",
+ "syn 2.0.15",
 ]
 
 [[package]]
@@ -619,7 +619,7 @@ checksum = "2345488264226bf682893e25de0769f3360aac9957980ec49361b083ddaa5bc5"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.11",
+ "syn 2.0.15",
 ]
 
 [[package]]
@@ -1061,7 +1061,7 @@ dependencies = [
 [[package]]
 name = "galloc"
 version = "0.1.0"
-source = "git+https://github.com/gear-tech/gear?branch=testnet#365773a75e41fa23b8caf11530811bf1f38bed05"
+source = "git+https://github.com/gear-tech/gear?branch=testnet#718ef2d83a21cf1d96f7138b8cb434681c5ac1e1"
 dependencies = [
  "dlmalloc",
 ]
@@ -1089,7 +1089,7 @@ dependencies = [
 [[package]]
 name = "gcore"
 version = "0.1.0"
-source = "git+https://github.com/gear-tech/gear?branch=testnet#365773a75e41fa23b8caf11530811bf1f38bed05"
+source = "git+https://github.com/gear-tech/gear?branch=testnet#718ef2d83a21cf1d96f7138b8cb434681c5ac1e1"
 dependencies = [
  "gear-core-errors 0.1.0 (git+https://github.com/gear-tech/gear?branch=testnet)",
  "gsys",
@@ -1100,21 +1100,20 @@ dependencies = [
 [[package]]
 name = "gear-backend-common"
 version = "0.1.0"
-source = "git+https://github.com/gear-tech/gear?branch=testnet#365773a75e41fa23b8caf11530811bf1f38bed05"
+source = "git+https://github.com/gear-tech/gear?branch=testnet#718ef2d83a21cf1d96f7138b8cb434681c5ac1e1"
 dependencies = [
  "derive_more",
  "gear-core 0.1.0 (git+https://github.com/gear-tech/gear?branch=testnet)",
  "gear-core-errors 0.1.0 (git+https://github.com/gear-tech/gear?branch=testnet)",
  "gear-wasm-instrument 0.1.0 (git+https://github.com/gear-tech/gear?branch=testnet)",
  "log",
- "parity-scale-codec",
  "scale-info",
 ]
 
 [[package]]
 name = "gear-backend-wasmi"
 version = "0.1.0"
-source = "git+https://github.com/gear-tech/gear?branch=testnet#365773a75e41fa23b8caf11530811bf1f38bed05"
+source = "git+https://github.com/gear-tech/gear?branch=testnet#718ef2d83a21cf1d96f7138b8cb434681c5ac1e1"
 dependencies = [
  "blake2-rfc",
  "derive_more",
@@ -1131,7 +1130,7 @@ dependencies = [
 [[package]]
 name = "gear-core"
 version = "0.1.0"
-source = "git+https://github.com/gear-tech/gear?branch=testnet#365773a75e41fa23b8caf11530811bf1f38bed05"
+source = "git+https://github.com/gear-tech/gear?branch=testnet#718ef2d83a21cf1d96f7138b8cb434681c5ac1e1"
 dependencies = [
  "blake2-rfc",
  "derive_more",
@@ -1167,11 +1166,10 @@ dependencies = [
 [[package]]
 name = "gear-core-errors"
 version = "0.1.0"
-source = "git+https://github.com/gear-tech/gear?branch=testnet#365773a75e41fa23b8caf11530811bf1f38bed05"
+source = "git+https://github.com/gear-tech/gear?branch=testnet#718ef2d83a21cf1d96f7138b8cb434681c5ac1e1"
 dependencies = [
  "derive_more",
  "enum-iterator",
- "parity-scale-codec",
  "scale-info",
 ]
 
@@ -1187,7 +1185,7 @@ dependencies = [
 [[package]]
 name = "gear-core-processor"
 version = "0.1.0"
-source = "git+https://github.com/gear-tech/gear?branch=testnet#365773a75e41fa23b8caf11530811bf1f38bed05"
+source = "git+https://github.com/gear-tech/gear?branch=testnet#718ef2d83a21cf1d96f7138b8cb434681c5ac1e1"
 dependencies = [
  "derive_more",
  "gear-backend-common",
@@ -1195,7 +1193,6 @@ dependencies = [
  "gear-core-errors 0.1.0 (git+https://github.com/gear-tech/gear?branch=testnet)",
  "gear-wasm-instrument 0.1.0 (git+https://github.com/gear-tech/gear?branch=testnet)",
  "log",
- "parity-scale-codec",
  "scale-info",
  "static_assertions",
 ]
@@ -1249,7 +1246,7 @@ dependencies = [
 [[package]]
 name = "gear-wasm-builder"
 version = "0.1.2"
-source = "git+https://github.com/gear-tech/gear?branch=testnet#365773a75e41fa23b8caf11530811bf1f38bed05"
+source = "git+https://github.com/gear-tech/gear?branch=testnet#718ef2d83a21cf1d96f7138b8cb434681c5ac1e1"
 dependencies = [
  "anyhow",
  "cargo_metadata",
@@ -1267,7 +1264,7 @@ dependencies = [
 [[package]]
 name = "gear-wasm-instrument"
 version = "0.1.0"
-source = "git+https://github.com/gear-tech/gear?branch=testnet#365773a75e41fa23b8caf11530811bf1f38bed05"
+source = "git+https://github.com/gear-tech/gear?branch=testnet#718ef2d83a21cf1d96f7138b8cb434681c5ac1e1"
 dependencies = [
  "enum-iterator",
  "wasm-instrument",
@@ -1352,24 +1349,23 @@ checksum = "8be18de09a56b60ed0edf84bc9df007e30040691af7acd1c41874faac5895bfb"
 [[package]]
 name = "gmeta"
 version = "0.1.0"
-source = "git+https://github.com/gear-tech/gear?branch=testnet#365773a75e41fa23b8caf11530811bf1f38bed05"
+source = "git+https://github.com/gear-tech/gear?branch=testnet#718ef2d83a21cf1d96f7138b8cb434681c5ac1e1"
 dependencies = [
  "blake2-rfc",
  "derive_more",
  "gmeta-codegen",
  "hex",
- "parity-scale-codec",
  "scale-info",
 ]
 
 [[package]]
 name = "gmeta-codegen"
 version = "0.1.0"
-source = "git+https://github.com/gear-tech/gear?branch=testnet#365773a75e41fa23b8caf11530811bf1f38bed05"
+source = "git+https://github.com/gear-tech/gear?branch=testnet#718ef2d83a21cf1d96f7138b8cb434681c5ac1e1"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 1.0.109",
+ "syn 2.0.15",
 ]
 
 [[package]]
@@ -1399,7 +1395,7 @@ dependencies = [
 [[package]]
 name = "gstd"
 version = "0.1.0"
-source = "git+https://github.com/gear-tech/gear?branch=testnet#365773a75e41fa23b8caf11530811bf1f38bed05"
+source = "git+https://github.com/gear-tech/gear?branch=testnet#718ef2d83a21cf1d96f7138b8cb434681c5ac1e1"
 dependencies = [
  "bs58",
  "futures",
@@ -1409,7 +1405,6 @@ dependencies = [
  "gstd-codegen",
  "hashbrown 0.13.2",
  "hex",
- "parity-scale-codec",
  "primitive-types",
  "scale-info",
  "static_assertions",
@@ -1418,22 +1413,22 @@ dependencies = [
 [[package]]
 name = "gstd-codegen"
 version = "0.1.0"
-source = "git+https://github.com/gear-tech/gear?branch=testnet#365773a75e41fa23b8caf11530811bf1f38bed05"
+source = "git+https://github.com/gear-tech/gear?branch=testnet#718ef2d83a21cf1d96f7138b8cb434681c5ac1e1"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 1.0.109",
+ "syn 2.0.15",
 ]
 
 [[package]]
 name = "gsys"
 version = "0.1.0"
-source = "git+https://github.com/gear-tech/gear?branch=testnet#365773a75e41fa23b8caf11530811bf1f38bed05"
+source = "git+https://github.com/gear-tech/gear?branch=testnet#718ef2d83a21cf1d96f7138b8cb434681c5ac1e1"
 
 [[package]]
 name = "gtest"
 version = "0.1.0"
-source = "git+https://github.com/gear-tech/gear?branch=testnet#365773a75e41fa23b8caf11530811bf1f38bed05"
+source = "git+https://github.com/gear-tech/gear?branch=testnet#718ef2d83a21cf1d96f7138b8cb434681c5ac1e1"
 dependencies = [
  "anyhow",
  "colored",
@@ -2469,9 +2464,9 @@ dependencies = [
 
 [[package]]
 name = "proc-macro2"
-version = "1.0.54"
+version = "1.0.56"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e472a104799c74b514a57226160104aa483546de37e839ec50e3c2e41dd87534"
+checksum = "2b63bdb0cd06f1f4dedf69b254734f9b45af66e4a031e42a7480257d9898b435"
 dependencies = [
  "unicode-ident",
 ]
@@ -2618,7 +2613,7 @@ checksum = "8d2275aab483050ab2a7364c1a46604865ee7d6906684e08db0f090acf74f9e7"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.11",
+ "syn 2.0.15",
 ]
 
 [[package]]
@@ -2986,7 +2981,7 @@ checksum = "4c614d17805b093df4b147b51339e7e44bf05ef59fba1e45d83500bcfb4d8585"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.11",
+ "syn 2.0.15",
 ]
 
 [[package]]
@@ -3800,9 +3795,9 @@ dependencies = [
 
 [[package]]
 name = "syn"
-version = "2.0.11"
+version = "2.0.15"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "21e3787bb71465627110e7d87ed4faaa36c1f61042ee67badb9e2ef173accc40"
+checksum = "a34fcf3e8b60f57e6a14301a2e916d323af98b0ea63c599441eec8558660c822"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -3859,7 +3854,7 @@ checksum = "f9456a42c5b0d803c8cd86e73dd7cc9edd429499f37a3550d286d5e86720569f"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.11",
+ "syn 2.0.15",
 ]
 
 [[package]]
@@ -3952,7 +3947,7 @@ checksum = "61a573bdc87985e9d6ddeed1b3d864e8a302c847e40d647746df2f1de209d1ce"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.11",
+ "syn 2.0.15",
 ]
 
 [[package]]
@@ -4800,5 +4795,5 @@ checksum = "25588073e5216b50bca71d61cb8595cdb9745e87032a58c199730def2862c934"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 2.0.11",
+ "syn 2.0.15",
 ]
